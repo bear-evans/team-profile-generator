@@ -8,7 +8,26 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
     />
-    <link rel="stylesheet" href="stylesheet.css" />
+    <style>
+      .hero {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+
+      /* Credit to Alison Quaglia for this neat trick - https://www.sliderrevolution.com/resources/css-animated-background/ */
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
     <script
       src="https://kit.fontawesome.com/ba33a5b68d.js"
       crossorigin="anonymous"

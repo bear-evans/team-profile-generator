@@ -1,0 +1,114 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <style>
+      .hero {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+
+      /* Credit to Alison Quaglia for this neat trick - https://www.sliderrevolution.com/resources/css-animated-background/ */
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/ba33a5b68d.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Team Roster</title>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body">
+        <p class="title has-text-white">Team Roster</p>
+      </div>
+    </section>
+    <div class="block"></div>
+    <div class="container">
+      <section class="columns is-multiline">
+        <article class="column is-one-third">
+  <div class="card">
+    <header class="card-header has-background-danger has-text-white">
+      <p class="card-header-title has-text-white">Bear</p>
+      <div class="card-header-icon">
+        <span class="icon"><i class='fas fa-user-tie'></i></span>
+      </div>
+    </header>
+    <div class="card-content">
+      <div class="content">
+        <p><span class="has-text-weight-bold">Role:</span> Manager</p>
+      <p><span class="has-text-weight-bold">Employee ID:</span> 555</p>
+      <p><span class="has-text-weight-bold">Email:</span> bear@xyz.com</p>
+      <p>
+        <span class="has-text-weight-bold">Office Number:</span>
+        555-5555
+      </p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="column is-one-third">
+  <div class="card">
+    <header class="card-header has-background-link has-text-white">
+      <p class="card-header-title has-text-white">Dave</p>
+      <div class="card-header-icon">
+        <span class="icon"><i class='fas fa-user-graduate'></i></span>
+      </div>
+    </header>
+    <div class="card-content">
+      <div class="content">
+        <p><span class="has-text-weight-bold">Role:</span> Intern</p>
+        <p><span class="has-text-weight-bold">Employee ID:</span> 232</p>
+        <p><span class="has-text-weight-bold">Email:</span> dave@osu.edu</p>
+        <p>
+          <span class="has-text-weight-bold">School:</span>
+          OSU
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+<article class="column is-one-third">
+  <div class="card">
+    <header class="card-header has-background-success has-text-white">
+      <p class="card-header-title has-text-white">Sarah</p>
+      <div class="card-header-icon">
+        <span class="icon"><i class='fas fa-user-cog'></i></span>
+      </div>
+    </header>
+    <div class="card-content">
+      <div class="content">
+        <p><span class="has-text-weight-bold">Role:</span> Engineer</p>
+        <p><span class="has-text-weight-bold">Employee ID:</span> 999</p>
+        <p><span class="has-text-weight-bold">Email:</span> sarah@xyz.com</p>
+        <p>
+          <span class="has-text-weight-bold">Github:</span>
+          sarahcool
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+
+      </section>
+    </div>
+  </body>
+</html>
