@@ -9,4 +9,9 @@ describe("Intern Class", () => {
     expect(intern.email).toBe("dave@xyz.com");
     expect(intern.school).toBe("OSU");
   });
+  it("getRole should return intern", () => {
+    const intern = new Intern("Dave", "3", "dave@xyz.com", "OSU");
+
+    expect(intern.getRole()).toBe("Intern");
+  });
 });

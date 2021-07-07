@@ -4,7 +4,7 @@
 
 This app quickly and easily generates a stylish team roster based on the user's command-line input. It has support for manager, engineer, and intern roles.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -35,7 +35,7 @@ To initiate the generator, run
 node index.js
 ```
 
-from the team-profile-generator directory.
+from the team-profile-generator directory. For convenience, a [demonstration video](https://drive.google.com/file/d/1GXjEorOOgaSvF7K0uDZLK-0qZ9qQjbNc/view) is also available.
 
 ## Tests
 

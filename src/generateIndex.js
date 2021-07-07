@@ -57,9 +57,7 @@ function renderContent(person) {
     case "Manager":
       output = `<p><span class="has-text-weight-bold">Role:</span> Manager</p>
       <p><span class="has-text-weight-bold">Employee ID:</span> ${person.getId()}</p>
-      <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${
-        person.email
-      }">${person.email}</a></p>
+      <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${person.getEmail()}">${person.getEmail()}</a></p>
       <p>
         <span class="has-text-weight-bold">Office Number:</span>
         ${person.officeNumber}
@@ -68,9 +66,7 @@ function renderContent(person) {
     case "Engineer":
       output = `<p><span class="has-text-weight-bold">Role:</span> Engineer</p>
         <p><span class="has-text-weight-bold">Employee ID:</span> ${person.getId()}</p>
-        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${
-          person.email
-        }">${person.email}</a></p>
+        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${person.getEmail()}">${person.getEmail()}</a></p>
         <p>
           <span class="has-text-weight-bold">Github:</span> <a href="https://github.com/${person.getGithub()}/">
           ${person.getGithub()}</a>
@@ -79,9 +75,7 @@ function renderContent(person) {
     case "Intern":
       output = `<p><span class="has-text-weight-bold">Role:</span> Intern</p>
         <p><span class="has-text-weight-bold">Employee ID:</span> ${person.getId()}</p>
-        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${
-          person.email
-        }">${person.email}</a></p>
+        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${person.getEmail()}">${person.getEmail()}</a></p>
         <p>
           <span class="has-text-weight-bold">School:</span>
           ${person.getSchool()}
@@ -91,9 +85,7 @@ function renderContent(person) {
       // Everyone should have a role, but just in case....
       output = `<p><span class="has-text-weight-bold">Role:</span> Unspecified</p>
         <p><span class="has-text-weight-bold">Employee ID:</span> ${person.getId()}</p>
-        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${
-          person.email
-        }">${person.email}</a></p>
+        <p><span class="has-text-weight-bold">Email:</span> <a href="mailto:${person.getEmail()}">${person.getEmail()}</a></p>
         `;
       break;
   }

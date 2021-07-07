@@ -9,4 +9,9 @@ describe("Engineer Class", () => {
     expect(engineer.email).toBe("dave@xyz.com");
     expect(engineer.github).toBe("davegit");
   });
+  it("getRole should return engineer", () => {
+    const engineer = new Engineer("Dave", "3", "dave@xyz.com", "davegit");
+
+    expect(engineer.getRole()).toBe("Engineer");
+  });
 });
