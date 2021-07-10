@@ -1,5 +1,7 @@
 # Team Profile Generator
 
+![Screenshot of application](./Screenshot.jpg)
+
 ## Description
 
 This app quickly and easily generates a stylish team roster based on the user's command-line input. It has support for manager, engineer, and intern roles.
