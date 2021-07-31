@@ -37,7 +37,7 @@ To initiate the generator, run
 node index.js
 ```
 
-from the team-profile-generator directory. For convenience, a [demonstration video](https://drive.google.com/file/d/1GXjEorOOgaSvF7K0uDZLK-0qZ9qQjbNc/view) is also available.
+from the team-profile-generator directory. For convenience, a [demonstration video](https://www.youtube.com/watch?v=kmHm2l0d4KU) is also available.
 
 ## Tests
 
